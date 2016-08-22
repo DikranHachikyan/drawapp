@@ -1,7 +1,10 @@
 package app;
 
+import shapes.Point;
+
 public class Main{
 	public static void main( String [] args){
-		new Main();	
+		Point p = new Point();
+		p.draw();	
 	}
 }
