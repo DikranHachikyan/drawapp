@@ -5,4 +5,5 @@ public interface Shape{
 	public void redraw();
     public void update();
 	public void scale( int dx, int dy);
+	public void delete();
 }
